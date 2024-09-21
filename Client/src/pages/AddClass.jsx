@@ -186,7 +186,12 @@ const AddClass = () => {
             />
           </div>
         </div>
-       
+        <button
+          className="mt-4 p-2 text-xl bg-pBlue text-white rounded-md duration-100 hover:scale-105 w-1/2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+          type="submit"
+        >
+          Add Class
+        </button>
       </form>
     </div>
   );
